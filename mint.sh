@@ -97,7 +97,7 @@ cardano-cli transaction build-raw \
 #  --out-file matx.signed
 
 cardano-cli transaction sign \
-	     --signing-key-file pay.skey \
+	     --signing-key-file payment.skey \
 	     --signing-key-file "policy-$1.skey" \
 	     --script-file "policy-$1.script" \
 	     --mainnet \
